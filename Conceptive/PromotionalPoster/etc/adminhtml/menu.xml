@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Conceptive_PromotionalPoster::gridlist" title="Conceptive Promotional Poster" module="Conceptive_PromotionalPoster" sortOrder="30" resource="Conceptive_PromotionalPoster::gridlist"/>
+        <add id="Conceptive_PromotionalPoster::promotionallist" title="Promotional List" module="Conceptive_PromotionalPoster" sortOrder="10" parent="Conceptive_PromotionalPoster::gridlist" action="conceptive/index/index" resource="Conceptive_PromotionalPoster::promotionallist"/>
+    </menu>
+</config>
